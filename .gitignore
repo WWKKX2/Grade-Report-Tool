@@ -1,0 +1,31 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build / cache
+dist/
+build/
+coverage/
+
+# Local exports & user data (this app stores backups next to itself)
+成绩报告备份-*.json
+hs-grade-report-*.json
+
+# Recovery / temporary logs
+_acl-recovery/
+*.log

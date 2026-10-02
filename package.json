@@ -1,0 +1,16 @@
+{
+  "name": "grade-report-tool",
+  "version": "1.0.0",
+  "description": "高中生个人成绩报告工具 · 单文件 HTML · 零依赖 · 双击即用",
+  "private": true,
+  "license": "MIT",
+  "type": "commonjs",
+  "scripts": {
+    "check": "node test/unit-check.js",
+    "smoke": "node test/smoke-test.js",
+    "test": "npm run check && npm run smoke"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
