@@ -1,1 +1,90 @@
-
+{
+  "version": 1,
+  "config": {
+    "primary": "physics",
+    "secondary": ["chemistry", "biology"],
+    "fullMarks": {},
+    "tiers": [
+      { "id": "t1", "name": "顶尖 985", "min": 660, "max": 750, "color": "#FF375F", "note": "清华 675 / 北大 663 / 上交 660-" },
+      { "id": "t2", "name": "中上 985", "min": 630, "max": 660, "color": "#FF9F0A", "note": "复旦 655 / 南大 640 / 浙大 639 / 东南 634-" },
+      { "id": "t3", "name": "中游 985 / 顶尖 211", "min": 610, "max": 630, "color": "#FFD60A", "note": "南航 614 / 苏大部分专业组 621–624-" },
+      { "id": "t4", "name": "中上 211 / 强一本", "min": 580, "max": 610, "color": "#30D158", "note": "江南大学 603 / 南邮 585 / 南师大热门组 602-" },
+      { "id": "t5", "name": "普通一本", "min": 532, "max": 580, "color": "#0A84FF", "note": "超过特殊类型招生控制线，涵盖省属重点及普通一本" },
+      { "id": "t6", "name": "二本 / 普通本科", "min": 484, "max": 532, "color": "#5E5CE6", "note": "达到本科线附近" },
+      { "id": "t7", "name": "本科线以下", "min": 0, "max": 484, "color": "#8E8E93", "note": "尚未达到本科线，优先补弱科" }
+    ],
+    "theme": "auto"
+  },
+  "exams": [
+    {
+      "id": "demo1",
+      "name": "高二下期末考试",
+      "date": "2025-06-28",
+      "feeling": "化学计算题丢分较多，基础题还算稳",
+      "classRank": 18,
+      "gradeRank": 152,
+      "scores": { "chinese": 108, "math": 118, "foreign": 112, "physics": 82, "chemistry": 76, "biology": 78 },
+      "createdAt": 1750688800000
+    },
+    {
+      "id": "demo2",
+      "name": "高三开学考",
+      "date": "2025-09-05",
+      "feeling": "数学发挥失常，两道大题空着没写完",
+      "classRank": 22,
+      "gradeRank": 186,
+      "scores": { "chinese": 104, "math": 110, "foreign": 115, "physics": 80, "chemistry": 74, "biology": 79 },
+      "createdAt": 1750775200000
+    },
+    {
+      "id": "demo3",
+      "name": "高三上第一次月考",
+      "date": "2025-10-11",
+      "feeling": "数学找回手感，英语作文被扣了不少",
+      "classRank": 12,
+      "gradeRank": 121,
+      "scores": { "chinese": 112, "math": 124, "foreign": 118, "physics": 85, "chemistry": 79, "biology": 81 },
+      "createdAt": 1750861600000
+    },
+    {
+      "id": "demo4",
+      "name": "高三上期中考试",
+      "date": "2025-11-08",
+      "feeling": "整体状态不错，物理实验题还是扣分",
+      "classRank": 9,
+      "gradeRank": 96,
+      "scores": { "chinese": 110, "math": 131, "foreign": 116, "physics": 88, "chemistry": 82, "biology": 84 },
+      "createdAt": 1750948000000
+    },
+    {
+      "id": "demo5",
+      "name": "高三上第二次月考",
+      "date": "2025-12-06",
+      "feeling": "只参加了语数外统测，物化生因故缺考",
+      "classRank": 7,
+      "gradeRank": 78,
+      "scores": { "chinese": 115, "math": 135, "foreign": 120 },
+      "createdAt": 1751034400000
+    },
+    {
+      "id": "demo6",
+      "name": "高三下开学考",
+      "date": "2026-03-07",
+      "feeling": "寒假补了化学，理科综合的手感回来了",
+      "classRank": 8,
+      "gradeRank": 88,
+      "scores": { "chinese": 113, "math": 128, "foreign": 121, "physics": 86, "chemistry": 83, "biology": 85 },
+      "createdAt": 1751120800000
+    },
+    {
+      "id": "demo7",
+      "name": "高三第一次模拟考试",
+      "date": "2026-04-11",
+      "feeling": "化学和生物都上了 85，数学压轴题仍不稳",
+      "classRank": 5,
+      "gradeRank": 61,
+      "scores": { "chinese": 116, "math": 136, "foreign": 124, "physics": 90, "chemistry": 86, "biology": 88 },
+      "createdAt": 1751207200000
+    }
+  ]
+}
